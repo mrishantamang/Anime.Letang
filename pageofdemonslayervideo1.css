@@ -1,0 +1,225 @@
+/* ===== RESET / GLOBAL STYLES ===== */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: auto;
+    background-color: black;
+    overflow-x: hidden;
+  }
+   header {
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    z-index: 3;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 3s;
+    animation: logo infinite 4s;
+    padding: 0px 0 0 4px;
+  }
+  @keyframes logo {
+    from { color: rgb(216, 216, 216); }
+    to   { color: rgb(0, 204, 255); }
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    padding-left: 10px;
+    position: relative;
+    bottom: 30px;
+  }
+  nav ul li input {
+   
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 25px;
+  }
+  nav ul li a i {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  #Searchicon {
+    color: white;
+    position: fixed;
+    right: 200px;
+    padding-top: 4px;
+  }
+  #person {
+    color: aqua;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    right: 10px;
+  }
+
+/* ===== VIDEO AREA ===== */
+.video {
+  margin-top: 80px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== WATCH TEXT BOX ===== */
+.watch {
+  background-color: rgba(139, 135, 135, 0.55);
+  color: aliceblue;
+  padding: 15px;
+  margin: 20px auto;
+  width: 95%;
+}
+.watch h4{
+font-size: 11px;
+font-family: 'nunito sans','Roboto', sans-serif;
+}
+
+/* ===== EPISODE BUTTON CONTAINER ===== */
+.option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* ===== EPISODE BUTTON STYLES (1–12) ===== */
+.option button {
+  width: 70px;
+  height: 32px;
+  background-color: rgba(139, 135, 135, 0.55);
+  color: aliceblue;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  margin-left:5px;
+  margin-top: 5px;
+}
+
+.option button:hover {
+  background-color: #51dbed;
+  color: rgb(251, 251, 251);
+  transform: translateY(-2px);
+  font-size: 14px;
+}
+.text{
+position: relative;
+top: 20px;
+}
+/* ===== ALL SECTION (TEXT + IMAGE) ===== */
+.all {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.img {
+  width: 150px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+#name, #name2 {
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.856);
+}
+
+#name {
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(240, 248, 255, 0.8);
+  margin-top: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+  }
+
+  .logo2 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: logo2 infinite 10s;
+    transition: all 5s;
+    padding-bottom: 20px;
+  }
+  @keyframes logo2 {
+    from { color: white; }
+    to   { color: red; }
+  }
+
+  .icons {
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 0;
+  
+  }
+
+  .icons nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .icons nav ul li {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    margin: 0 10px;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0px 1px 6px 2px white;
+  
+  }
+
+  .icons nav ul li a i {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    right: 5px;
+  }
+
+  pre {
+    color: rgba(255, 255, 255, 0.479);
+    font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+    font-size: 13px;
+    text-align: center;
+  }
+  
