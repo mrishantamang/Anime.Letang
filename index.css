@@ -20,7 +20,7 @@
     z-index: 3;
   }
   main{
-  height: 20cm;
+  height: 23cm;
   }
   .all{
   position: relative;
@@ -33,6 +33,7 @@
     transition: all 3s;
     animation: logo infinite 4s;
     padding: 0px 0 0 4px;
+    text-decoration: none;
   }
   @keyframes logo {
     from { color: rgb(216, 216, 216); }
@@ -90,15 +91,17 @@
   @keyframes animelogo {
     0%   { background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/demon-slayer-infinity-castle-movie-release-date.jpg'); }
     1%   { background-image: url('https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/3faa80fc683fd414a128b66b1acf535f.jpg'); }
-    30%  { background-image: url('https://anithreadz-bucket.s3.ap-southeast-1.amazonaws.com/edc403f3-a322-49aa-8252-cb5a1dfeeec9-The%20Fragrant%20Flower%20Blooms%20With%20Dignity%20Debuts%20This%20Summer-featured-image.jpg'); }
-    60%  { background-image: url('https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1613993182428-R5SIXOIEUZ5FP6XTU9XE/Cover.jpg'); }
-    100% { background-image: url('https://cdn.oneesports.gg/cdn-data/2024/05/Anime_OnePiece_Luffy_nami_Sanji_Usopp_Chopper_Robin_Brooke_Franky_Jinbe_EggheadArc-450x253.jpg'); }
+    20%  { background-image: url('https://anithreadz-bucket.s3.ap-southeast-1.amazonaws.com/edc403f3-a322-49aa-8252-cb5a1dfeeec9-The%20Fragrant%20Flower%20Blooms%20With%20Dignity%20Debuts%20This%20Summer-featured-image.jpg'); }
+    40%  { background-image: url('https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1613993182428-R5SIXOIEUZ5FP6XTU9XE/Cover.jpg'); }
+    60%  { background-image: url('https://i.pinimg.com/736x/99/fd/84/99fd843c37f3c3f3652f13944992db3d.jpg'); }
+    80%  { background-image: url('https://4kwallpapers.com/images/wallpapers/one-piece-character-2880x1800-15328.jpeg'); }
+    100% { background-image: url('https://images8.alphacoders.com/108/1081458.jpg'); }
   }
 
   .videoimage {
     width: 95%;
    border: 2px solid rgba(169, 164, 164, 0.658);
-    height: 540px;
+    height: 630px;
     margin: 20px auto;
     border-radius: 10px;
     background-color: black;
@@ -118,50 +121,77 @@
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
-    height: 150px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(220, 47, 47);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-    box-shadow: 0px 3px 15px 3px rgb(230, 31, 31);
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+  }
+  .Demonslayer:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid blue;
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-    box-shadow: 0px 3px 30px 3px rgb(1, 85, 255);
+  
+  }
+  .bluelock:hover {
+    border: 1px solid blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid skyblue;
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+  }
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid darkred;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    
+  }
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(39, 39, 245);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 27px 3px rgb(17, 0, 255);
+  }
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid yellow;
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+  }
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
     box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
@@ -226,23 +256,23 @@
   }
 
   .icons nav ul li {
-    border: 1px solid rgba(255, 0, 0, 0.5);
-    margin: 0 10px;
+   border: 1px solid rgb(255, 255, 255);
     width: 40px;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     background-color: black;
     text-align: center;
     box-shadow: 0px 1px 6px 2px white;
-  
+    margin-left: 20px;
   }
 
   .icons nav ul li a i {
     color: white;
     font-size: 18px;
     line-height: 25px;
-    position: relative;
-    right: 5px;
+   position: relative;
+   right: 5px;
+   top: 3px;
   }
 
   pre {
@@ -367,82 +397,80 @@
 
   }
 
-  .Demonslayer,
+ .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
     width: 120px;
-    height: 150px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -646,83 +674,80 @@
 
   }
 
-  .Demonslayer,
+ .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
     width: 120px;
-    height: 150px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-left: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -923,83 +948,80 @@
 
   }
 
-  .Demonslayer,
+ .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
     width: 120px;
-    height: 170px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-left: 20px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px rgb(33, 172, 197);
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px rgb(1, 34, 255);
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px rgb(255, 0, 187);
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px rgb(215, 27, 27);
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -1300,81 +1322,78 @@ left: 360px;
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 115px;
-    height: 160px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-left: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -1643,81 +1662,78 @@ left: 360px;
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
     width: 120px;
-    height: 150px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    margin-left: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -1985,81 +2001,80 @@ left: 360px;
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
+
 
   .animelogo a{
     text-decoration: none;
@@ -2257,82 +2272,80 @@ left: 360px;
   justify-content: space-evenly;
   }
 
-  .Demonslayer,
+ .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -2533,81 +2546,80 @@ left: 360px;
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
+
 
   .animelogo a{
     text-decoration: none;
@@ -2804,82 +2816,80 @@ left: 360px;
   justify-content: space-evenly;
   }
 
-  .Demonslayer,
+.Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 10px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://images.static-bluray.com/products/20/143790_1_large.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-    
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
 
   .animelogo a{
@@ -3068,6 +3078,407 @@ left: 360px;
   }
 
   .videoimage {
+    width: 58%;
+    height: 500px;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid  rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+    position: relative;
+    right: 240px;
+    bottom: 33px;
+  }
+
+  .animelogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  }
+
+ .Demonslayer,
+  .bluelock,
+  .Attackontitan,
+  .TokyoRevengers,
+  .ClassroomoftheElite,
+  .OnePunchMan {
+    width: 120px;
+    height: 180px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+    margin-top: 13px;
+  }
+
+  .Demonslayer {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+  }
+  .Demonslayer:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
+  }
+
+  .bluelock {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
+  }
+  .bluelock:hover {
+    border: 1px solid blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
+  }
+
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+  }
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
+  }
+
+  .TokyoRevengers {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    
+  }
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
+  }
+
+  .ClassroomoftheElite {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
+  }
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
+  }
+
+  .OnePunchMan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+  }
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
+    background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
+  }
+    .animelogo a{
+    text-decoration: none;
+    color: #969ea0;
+    font-size: 14px;
+    text-align: center;
+  }
+  .animelogo a:hover{
+   text-decoration: none;
+    color: white;
+  transform: translateY(-2px);
+  font-size: 14px;
+  }
+
+  #text {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+  }
+
+  .logo2 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: logo2 infinite 10s;
+    transition: all 5s;
+    padding-bottom: 20px;
+  }
+  @keyframes logo2 {
+    from { color: white; }
+    to   { color: red; }
+  }
+
+  .icons {
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 0;
+  
+  }
+
+  .icons nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .icons nav ul li {
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    margin: 0 10px;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    box-shadow: 0px 1px 6px 2px white;
+  
+  }
+
+  .icons nav ul li a i {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+    right: 5px;
+  }
+
+  pre {
+    color: rgba(255, 255, 255, 0.479);
+    font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+    font-size: 13px;
+    text-align: center;
+  }
+  .listanime{
+  
+  border-radius: 5px;
+  height: 360px;
+  width: 37%;
+  margin-left: 780px;
+  position: relative;
+  top: 55px;
+  }
+  .all{
+  position: relative;
+  bottom: 389px;
+  }
+  .listdate{
+  width: 100%;
+  height: 30px;
+  background-color: #f0fcff23;
+  }
+  .listdate h3{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 8px;
+  }
+  .listdate nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  }
+  .listdate nav ul li{
+  margin-right: 5px;
+  margin-top: 5px ;
+  } 
+.listdate nav ul li a {
+  color: rgba(255, 255, 255, 0.817);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.topanime{
+width: 100%;
+height: 145px;
+margin-top: 1px;
+background-image: url('https://c4.wallpaperflare.com/wallpaper/965/883/624/manga-one-piece-wallpaper-preview.jpg');
+background-position: center;
+background-size: cover;
+  }
+
+.box{
+width:30px;
+height: 30px;
+border: 1px solid white;
+position: relative;
+top: 100px;
+border-radius: 10px;
+left: 10px;
+color: aliceblue;
+text-align: center;
+font-size:15px;
+padding-top: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.anime2{
+width: 48%;
+height: 75px;
+margin-top: 1px;
+background-image: url(https://portaln10.com.br/wp-content/uploads/2025/03/Demon-Slayer-Castelo-Infinito.jpg);
+background-position: center;
+background-size: cover;
+  }
+
+.box2{
+width:20px;
+height: 20px;
+border: 1px solid white;
+position: relative;
+top: 50px;
+left: 6px;
+color: aliceblue;
+text-align: center;
+font-size:11px;
+padding-top: 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 5px;
+}
+.anime3{
+width: 48%;
+height: 75px;
+margin-top: 1px;
+background-image: url('https://images4.alphacoders.com/100/1001038.jpg');
+background-position: center;
+background-size: cover;
+  }
+
+
+.anime4{
+width: 48%;
+height: 75px;
+margin-top: 1px;
+background-image: url(https://essential-japan.com/wp-content/uploads/2025/05/Tokyo-revengers-cafe.webp);
+background-position: center;
+background-size: cover;
+  }
+
+.anime5{
+width: 48%;
+height: 75px;
+margin-top: 1px;
+background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2025/08/jujutsu-kaisen-cast.png');
+background-position: center;
+background-size: cover;
+  }
+
+.otheranime{
+display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+}
+@media screen and (min-width: 1300px) and (max-width: 1450px) {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: auto;
+    background-color: black;
+    overflow-x: hidden;
+  }
+ header {
+    padding: 10px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 50px;
+    z-index: 3;
+  }
+
+  .logo {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 3s;
+    animation: logo infinite 4s;
+    padding: 0px 0 0 4px;
+  }
+  @keyframes logo {
+    from { color: rgb(216, 216, 216); }
+    to   { color: rgb(0, 204, 255); }
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    padding-left: 10px;
+    position: relative;
+    bottom: 30px;
+  }
+  nav ul li a i {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  nav ul li input {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.922);
+    padding-left: 10px;
+    height: 25px;
+  }
+  #Searchicon {
+    color: white;
+    position: fixed;
+    right: 200px;
+    padding-top: 4px;
+  }
+  #person {
+    color: aqua;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    right: 10px;
+  }
+
+
+  .imageforknow {
+    border: 2px solid;
+    height: 380px;
+    width: 60%;
+    margin: 60px auto 0;
+    background-size: 100%;
+    background-position: center;
+    animation: animelogo 30s infinite;
+    background-color: aliceblue;
+    border-radius: 5px;
+    position: relative;
+    right: 260px;
+  }
+  @keyframes animelogo {
+    0%   { background-image: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/demon-slayer-infinity-castle-movie-release-date.jpg');}
+    1%   { background-image: url('https://wallpapers.com/images/hd/jujutsu-kaisen-desktop-6sgnzve7mydcuoyq.jpg'); 
+    background-size: cover;
+    }
+    30%  { background-image: url('https://i0.wp.com/uploads.saigacdn.com/2025/06/tokyo-revengers-unlimited-pre-registration-01.jpg');
+    background-size: cover;
+    }
+    60%  { background-image: url('https://comicbook.com/wp-content/uploads/sites/4/2025/06/Demon-Slayer-Hashira.jpeg');
+    background-size: cover;
+    }
+    90% { background-image: url('https://images6.alphacoders.com/132/1320541.png'); }
+    100% { background-image: url('https://a.storyblok.com/f/178900/1920x1080/67d117169c/blue-lock-season-2.png');
+    background-size: cover;}
+  }
+
+  .videoimage {
     width: 60%;
     height: 520px;
     margin: 10px auto;
@@ -3075,7 +3486,7 @@ left: 360px;
     border: 2px solid  rgba(255, 255, 255, 0.733);
     border-radius: 10px;
     position: relative;
-    right: 240px;
+    right: 260px;
     bottom: 30px;
   }
 
@@ -3088,88 +3499,81 @@ left: 360px;
 
   .Demonslayer,
   .bluelock,
-  .flower,
+  .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
   .OnePunchMan {
-    width: 130px;
+    width: 120px;
     height: 180px;
     border-radius: 5px;
     background-size: cover;
     background-position: center;
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 15px;
+    margin-top: 13px;
   }
 
   .Demonslayer {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhdl9oGnQv1KkFi226K2VTYnArECzFnO2IA&s.jpg");
-  
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
-    border-color:  rgb(255, 255, 255);
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhdl9oGnQv1KkFi226K2VTYnArECzFnO2IA&s.jpg");
-   box-shadow: 0px 3px 30px 3px skyblue;
-  }
-  .Demonslayer:active {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhdl9oGnQv1KkFi226K2VTYnArECzFnO2IA&s.jpg');
-   
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
   }
 
   .bluelock {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
+  
   }
-    .bluelock:hover {
-    border: 2px solid rgb(255, 255, 255);
+  .bluelock:hover {
+    border: 1px solid blue;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcbf7APi78Ql7FUP7jY6_zTELzI9XxbE0HBQ&s.jpg");
-  box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 2px 30px 3px rgba(1, 103, 255, 0.826);
   }
 
-  .flower {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
+  .Attackontitan {
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
   }
-  .flower:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://dkeonvn7j9sk.cloudfront.net/wp-content/uploads/2024/06/04114220/FragrantFlower_V1_CoverImage.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+   .Attackontitan:hover{
+    border: 1px solid rgb(220, 241, 36);
+    background-image: url("https://cdn2.penguin.com.au/covers/original/9781646513789.jpg");
+    box-shadow: 0px 3px 30px 3px rgba(230, 235, 135, 0.884);
   }
 
   .TokyoRevengers {
-    border: 2px solid rgb(0, 0, 0);
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/a/a8/TokyoRevengersSeason1.jpg");
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     
   }
-  .TokyoRevengers:hover{
-    border: 2px solid rgb(255, 255, 255);
-    background-image: url("https://upload.wikimedia.org/wikipedia/en/a/a8/TokyoRevengersSeason1.jpg");
-     box-shadow: 0px 3px 30px 3px skyblue;
+   .TokyoRevengers:hover {
+    border: 1px solid darkred;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNGU3YzdhMWEtMGRkMC00MzY2LThkOGEtMDFmZDE0NGQxYzFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 3px 40px 3px rgb(196, 10, 10);
   }
 
   .ClassroomoftheElite {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    
   }
-  .ClassroomoftheElite:hover {
-    border: 2px solid rgb(255, 255, 255);
+   .ClassroomoftheElite:hover {
+    border: 1px solid rgb(39, 39, 245);
     background-image: url("https://m.media-amazon.com/images/M/MV5BY2U2NWU5MzMtOGY5Ni00MGI5LWFkZDYtMGNlN2RhMGRhNGZkXkEyXkFqcGc@._V1_.jpg");
-    box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px 
+    rgb(61, 53, 176);
   }
 
   .OnePunchMan {
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
-    
   }
-  .OnePunchMan:hover{
-    border: 2px solid rgb(255, 255, 255);
+  .OnePunchMan:hover {
+    border: 1px solid rgb(255, 242, 0);
     background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
-     box-shadow: 0px 3px 30px 3px skyblue;
+    box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
   }
-
   .animelogo a{
     text-decoration: none;
     color: #969ea0;
