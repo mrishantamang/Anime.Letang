@@ -65,13 +65,15 @@ nav ul li input {
   background-color: rgb(177, 219, 236);
 
 }
-
+.logo{
+text-decoration: none;
+}
   
 </style>
 </head>
 <body>
     <header>
-        <h2 class="logo">AnimeイシHub</h2>
+        <h2><a href="index.html"  class="logo">AnimeイシHub</a></h2>
         <nav>
             <ul>
                 <li><input type="text" placeholder="Search Anime... "></li>
@@ -114,14 +116,13 @@ nav ul li input {
        <div id="text">Issue Recently updated</div>
        <br>
        <div class="videoimage">
-       
         <div class="animelogo">
         <a href="pageofdemonslayer.html"><div class="Demonslayer"></div>Demon Slayer</a>
-        <a href=""><div class="bluelock"></div>Blue Lock</a>
-        <a href=""><div class="flower"></div>The Fragrant Flower</a>
-        <a href=""><div class="TokyoRevengers"></div>Tokyo Revengers</a>
-        <a href=""><div class="ClassroomoftheElite"></div>Classroom of the Elite</a>
-        <a href=""><div class="OnePunchMan"></div>One-Punch Man</a>
+        <a href="pageofbluelock.html"><div class="bluelock"></div>Blue Lock</a>
+        <a href="pageofAttackontitan.html"><div class="Attackontitan"></div>Attack on Titan</a>
+        <a href="pageoftokyorevengers.html"><div class="TokyoRevengers"></div>Tokyo Revengers</a>
+        <a href="pageofclassroomoftheelite.html"><div class="ClassroomoftheElite"></div>Classroom of the Elite</a>
+        <a href="pageofonepunchman.html"><div class="OnePunchMan"></div>One-Punch Man</a>
         </div>
        </div>
        </div>
@@ -134,10 +135,10 @@ nav ul li input {
 <div class="icons">
 <nav>
 <ul>
-    <li><a href="https://www.tiktok.com/@mr.ishantamang?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-bounce"></i></a></li>
-    <li><a href=""><i class="fa-brands fa-facebook-f fa-bounce"></i></a></li>
-    <li><a href="https://youtube.com/@mr.ishantamang?si=iodrAqG_dOG3R4rd"><i class="fa-brands fa-youtube fa-bounce"></i></a></li>
-    <li><a href="https://www.instagram.com/mr.ishantamang?igsh=MXB6cG04eDk1NHZ5dw=="><i class="fa-brands fa-instagram fa-bounce"></i></a></li>
+    <li  class="tiktok"><a href="https://www.tiktok.com/@mr.ishantamang?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-bounce"></i></a></li>
+    <li class="facebook"><a href=""><i class="fa-brands fa-facebook-f fa-bounce"></i></a></li>
+    <li class="youtube"><a href="https://youtube.com/@mr.ishantamang?si=iodrAqG_dOG3R4rd"><i class="fa-brands fa-youtube fa-bounce"></i></a></li>
+    <li class="instagram"><a href="https://www.instagram.com/mr.ishantamang?igsh=MXB6cG04eDk1NHZ5dw=="><i class="fa-brands fa-instagram fa-bounce"></i></a></li>
 </ul>
 </nav>
 </div>
@@ -149,11 +150,11 @@ nav ul li input {
   window.onload = function () {
     const animes = [
       { name: "Demon Slayer", url: "pageofdemonslayer.html" },
-      { name: "Blue Lock", url: "#" },
-      { name: "The Fragrant Flower", url: "#" },
-      { name: "Tokyo Revengers", url: "#" },
-      { name: "Classroom of the Elite", url: "#" },
-      { name: "One-Punch Man", url: "#" },
+      { name: "Blue Lock", url: "pageofbluelock.html" },
+      { name: "Attack on Titan", url: "pageofAttackontitan.html" },
+      { name: "Tokyo Revengers", url: "pageoftokyorevengers.html" },
+      { name: "Classroom of the Elite", url: "pageofclassroomoftheelite.html" },
+      { name: "One-Punch Man", url: "pageofonepunchman.html" },
     ];
 
     const input = document.querySelector('input[type="text"]');
@@ -226,6 +227,4 @@ nav ul li input {
   };
 </script>
 
-
 </html>
-
