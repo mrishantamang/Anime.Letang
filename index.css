@@ -20,7 +20,7 @@
     z-index: 3;
   }
   main{
-  height: 23cm;
+  height: 30cm;
   }
   .all{
   position: relative;
@@ -101,12 +101,12 @@
   .videoimage {
     width: 95%;
    border: 2px solid rgba(169, 164, 164, 0.658);
-    height: 630px;
+    height: 870px;
     margin: 20px auto;
     border-radius: 10px;
     background-color: black;
-      position: relative;
-  bottom: 90px;
+    position: relative;
+   bottom: 90px;
   }
 
   .animelogo{
@@ -120,11 +120,13 @@
   }
 
   .Demonslayer,
+  .Demonslayermovie,
   .bluelock,
   .Attackontitan,
   .TokyoRevengers,
   .ClassroomoftheElite,
-  .OnePunchMan {
+  .OnePunchMan,
+  .DeathNote {
     width: 120px;
     height: 180px;
     border-radius: 5px;
@@ -140,6 +142,15 @@
     border: 1px solid rgb(255, 255, 255);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     box-shadow: 0px 2px 15px 3px skyblue;
+  }
+   .Demonslayermovie{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOGQ3YWUzYjEtMTJiYy00ZjQ0LWI0YjktYjhiNGVhNGExYTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+  }
+  .Demonslayermovie:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOGQ3YWUzYjEtMTJiYy00ZjQ0LWI0YjktYjhiNGVhNGExYTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px rgb(13, 163, 217);
   }
 
   .bluelock {
@@ -193,6 +204,15 @@
     border: 1px solid rgb(255, 242, 0);
     background-image: url('https://roppongi.fr/wp-content/uploads/one-punch-man-1024x1024.jpg');
     box-shadow: 0px 3px 27px 3px rgb(245, 253, 13);
+  }
+  .DeathNote{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Death_Note_Characters.jpg/250px-Death_Note_Characters.jpg");
+  }
+  .DeathNote:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Death_Note_Characters.jpg/250px-Death_Note_Characters.jpg");
+    box-shadow: 0px 2px 15px 3px rgba(103, 110, 113, 0.523);
   }
 
   .animelogo a {
@@ -3498,6 +3518,7 @@ display: flex;
   }
 
   .Demonslayer,
+  .Demonslayermovie,
   .bluelock,
   .Attackontitan,
   .TokyoRevengers,
@@ -3517,6 +3538,15 @@ display: flex;
     background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
   }
   .Demonslayer:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    box-shadow: 0px 2px 15px 3px skyblue;
+  }
+  .Demonslayermovie{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+  }
+  .Demonslayermovie:hover {
     border: 1px solid rgb(255, 255, 255);
     background-image: url("https://m.media-amazon.com/images/M/MV5BNDUyZTJmODQtZmRkMS00YjJiLTgxZmUtMjQ5OGNjNzkyM2Y5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
     box-shadow: 0px 2px 15px 3px skyblue;
