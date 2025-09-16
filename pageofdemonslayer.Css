@@ -30,6 +30,7 @@
     transition: all 3s;
     animation: logo infinite 4s;
     padding: 0px 0 0 4px;
+     text-decoration: none;
   }
   @keyframes logo {
     from { color: rgb(216, 216, 216); }
@@ -699,3 +700,4 @@ footer {
     padding-right: 20px;
   }
 }
+
